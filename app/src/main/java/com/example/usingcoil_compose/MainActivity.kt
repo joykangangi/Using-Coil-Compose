@@ -44,11 +44,11 @@ fun ImageListItem(index: Int) {
         Image(
             painter = rememberImagePainter(
                 data = "https://w1.pngwing.com/pngs/31/647/png-transparent-sheep-pygmy-goat-boer-goat-anglonubian-goat-cattle-feral-goat-goats-live.png"
-            ) ,
+            ),
             contentDescription = "Goat",
             modifier = Modifier.size(50.dp)
         )
-        Spacer(modifier = Modifier.width(10.dp) )
+        Spacer(modifier = Modifier.width(10.dp))
         Text(text = "Item $index", style = MaterialTheme.typography.subtitle1)
     }
 }
